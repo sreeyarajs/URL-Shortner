@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortner Description</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 20px;
+        }
+        h1 {
+            color: #0066cc;
+        }
+        h2 {
+            color: #6f249b;
+        }
+        p, li {
+            color: #444;
+        }
+        a {
+            color: #c40303;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        code {
+            background-color: #e8f4fc;
+            padding: 2px 4px;
+            border-radius: 4px;
+            color: #003366;
+        }
+    </style>
+</head>
+<body>
+    <h1>Python Project: URL Shortener</h1>
+    <p>This script shortens URLs using the <a href="https://cutt.ly/" target="_blank">Cutt.ly API</a>.</p>
+    
+    <h2>Key Features:</h2>
+    <ul>
+        <li><strong>Function:</strong> <code>shorten_url</code> - Accepts an API key and URL, returns a shortened URL or an error message.</li>
+        <li><strong>Library:</strong> Uses <code>requests</code> for HTTP requests.</li>
+        <li><strong>Error Handling:</strong> Gracefully manages HTTP and general exceptions.</li>
+    </ul>
+    
+    <h2>How It Works:</h2>
+    <ol>
+        <li>User provides a URL to shorten.</li>
+        <li>API key and URL are sent to the Cutt.ly API.</li>
+        <li>Response is processed and displayed to the user.</li>
+    </ol>
+    
+    <h2>Usage:</h2>
+    <p>Replace the placeholder API key with a valid one and run the script in a Python environment.</p>
+</body>
+</html>
